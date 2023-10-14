@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Jaime Markkern
+EMAIL: jmarkker@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Jaime Markkern">
+  <meta name="description" content="Portfolio of Jaime Markkern, UCI Senior B.S. Informatics">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Jaime Markkern's Portfolio</title>
+</head>
+
+<body>
+  
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h2>Navigation</h2>
+    <nav>
+      <p><strong>About Me</strong></p>
+      <p><a href="uxui-portfolio.html">UX/UI</a></p>
+      <p><a href="digiart-portfolio.html">Digital Art</a></p>
+      <p><a href="https://drive.google.com/file/d/1bpyKffzRjMSMpWAlu_fu_Xe55A894C1r/view?usp=sharing" target="_blank">PDF Resume</a></p>
+    </nav>
+    <h2><br>Contact Me</h2>
+    <p><strong>Email:</strong><br>jaimemarkkern@gmail.com</p>
+    <p><strong>Location:</strong><br>Los Angeles / Orange County</p>
+    <p><strong>Social:</strong><a href="https://www.linkedin.com/in/jaime-markkern/" target="_blank" style="padding: 0px 0px;">LinkedIn</a></p>
+    <p><br><br><small>HTML and CSS by Jaime Markkern (me!)</small></p>
+    <p style="padding-left: 0px;"><img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></p>
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "272px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+  </script>
+
+  <button class="openbtn" onclick="openNav()">&#9776;</button>
+  <div class="name">
+    <h3 style="color:#F9F9F9">Jaime Markkern</h3>
+  </div>
+  <div class="header">
+    <h1 style="color:#F9F9F9">About Me</h1>
+  </div>
+
+  <div id="main" class="container">
+    <h2>Hi, my name is Jaime!</h2>
+    <div class="row">
+      <div class="column left-about">
+        <img src="media/jaime_headshot.png" alt="Jaime wearing a white blouse and smiling." height="230" width="230">
+      </div>
+      <div class="column right-about">
+        <p>I am a senior at UC Irvine studying Human-Computer Interaction. I've always been interested in designing things 
+           and now I want to be able to apply that in technology since it is everywhere! Well-designed technology makes it 
+           easier to use and that is so important to me as someone who grew up in the age of the internet.
+           <br><br>Thanks for looking at my page!
+        </p>
+      </div>
+    </div>
+
+    <h2><br>Education</h2>
+    <h3>University of California - Irvine</h3>
+    <ul>
+      <li><strong>B.S. Informatics</strong></li>
+      <li>Specialization in Human-Computer Interaction</li>
+      <li>Minors in <strong>Digital Arts</strong> and <strong>Information and Computer Science</strong></li>
+      <li>Expected Graduation -- June 2024</li>
+    </ul>
+    
+    <h2><br>Extracurriculars</h2>
+    <div class="row">
+      <div class="column half-project">
+        <div class="row">
+          <img src="media/tcn_aif2021" alt="TCA Board at TCN Booth for 2021 Anteater Involvement Fair.">
+        </div>
+        <div class="row">
+          <h3>Thai Culture Association at UCI</h3>
+          <p>TCA is an organization at UC Irvine seeking to bring together people who appreciate Thai culture. We meet weekly to teach or 
+             learn a little more about Thai culture while making friends within the club. The group is very tight-knit which inspired me 
+             to stay involved. I helped manage the organization's social media for two years and continue to be an active member since.
+          </p>
+        </div>
+      </div>
+      <div class="column half-project">
+        <div class="row">
+          <img src="media/CWP2023" alt="Group picture of counselors and campers in 2023.">
+        </div>
+        <div class="row">
+          <h3>Camp Wat Pa</h3>
+          <p>Camp Wat Pa is the only Thai youth leadership program in the US, hosted annually on Labor Day weekend in Los Angeles. I came 
+             to this camp 5 years ago as a camper and loved my experience here as I connected with other people from the Thai community. 
+             This sense of belonging brings me back as a counselor every year as I want to continue empowering the kids to feel pride in 
+             their Thai identity.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
