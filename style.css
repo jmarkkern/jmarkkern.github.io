@@ -77,6 +77,14 @@ img {
 	margin-right: auto;
 }
 
+.digiart-img {
+	width: 70%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .sidebar {
 	height: 100%;
 	width: 0;
@@ -155,6 +163,11 @@ img {
 	clear: both;
 }
 
+.half-project {
+	width: calc(50% - 16px);
+	padding-left: 16px;
+}
+
 @media screen and (max-width: 800px) {
 /* small screens */
 	.header {
@@ -182,17 +195,13 @@ img {
 	.right-project {
 		width: 100%;
 	}
-	.half-project {
-		width: 100%;
-		padding-bottom: 16px;
-	}
 }
 
 @media screen and (min-width: 800px) and (max-width: 1080px) {
 /* medium screens */
 	.container {
-		padding-left: 15%;
-		padding-right: 15%;
+		padding-left: 10%;
+		padding-right: 10%;
 	}
 	.header h1 {
 		font-size: 64px;
@@ -211,10 +220,6 @@ img {
 	.right-project {
 		width: calc(50% - 16px);
 		padding-left: 16px;
-	}
-	.half-project {
-		width: 100%;
-		padding-top: 16px;
 	}
 }
 
@@ -242,9 +247,4 @@ img {
 		width: calc(50% - 16px);
 		padding-left: 16px;
 	}
-	.half-project {
-		width: calc(50% - 16px);
-		padding-left: 16px;
-	}
-	
 }
