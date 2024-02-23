@@ -75,7 +75,6 @@ img {
 	height: auto;
 	display: block;
 	margin: auto;
-	/* margin-right: auto; */
 	border-radius: 6px;
 }
 
@@ -196,7 +195,7 @@ img {
 	}
 	.left-about {
 		width: 100%;
-		margin-bottom: 32px;
+		padding-top: 24px;
 	}
 	.right-about {
 		width: 100%;
@@ -229,6 +228,7 @@ img {
 	}
 	.left-about {
 		width: 230px;
+		padding-top: 24px;
 	}
 	.right-about {
 		width: calc(100% - 262px);
@@ -261,7 +261,6 @@ img {
 	}
 	.left-about {
 		width: 200px;
-		padding-top: 24px;
 	}
 	.right-about {
 		width: calc(100% - 232px);
