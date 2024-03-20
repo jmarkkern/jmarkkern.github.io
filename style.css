@@ -1,6 +1,6 @@
 /*
 links for fonts :)
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Serif+Display">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
 
 color palette
@@ -165,14 +165,18 @@ img {
 	clear: both;
 }
 
-.display-left {
+.left-display {
 	width: calc(50% - 16px);
 	margin-right: 16px;
 }
 
-.display-right {
+.right-display {
 	width: calc(50% - 16px);
 	margin-left: 16px;
+}
+
+.text p{
+	margin: 0px;
 }
 
 .bigbtn {
@@ -220,9 +224,6 @@ img {
 	.right-project {
 		width: 100%;
 	}
-	.right-project p {
-		margin-top: 16px;
-	}
 }
 
 @media screen and (min-width: 800px) and (max-width: 1080px) {
@@ -256,9 +257,6 @@ img {
 		width: calc(50% - 16px);
 		padding-left: 16px;
 	}
-	.right-project p {
-		margin-top: 0px;
-	}
 }
 
 @media screen and (min-width: 1080px) {
@@ -290,8 +288,5 @@ img {
 	.right-project {
 		width: calc(50% - 16px);
 		padding-left: 16px;
-	}
-	.right-project p {
-		margin-top: 0px;
 	}
 }
