@@ -79,6 +79,28 @@ img {
 	border-radius: 6px;
 }
 
+footer {
+	background-color: #152E52;
+	width: 100%;
+	/* height: 100px; */
+	text-align: center;
+}
+
+footer h3 {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+footer p {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+footer a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
 .digiart-img {
 	width: 70%;
 	height: auto;
@@ -87,7 +109,7 @@ img {
 	margin-right: auto;
 }
 
-.sidebar {
+.navbar {
 	height: 100%;
 	width: 0;
 	position: fixed;
@@ -100,14 +122,14 @@ img {
 	padding-top: 64px;
 }
 
-.sidebar a {
+.navbar a {
 	text-decoration: none;
 	display: block;
 	transition: 0.3s;
     color: #FFFFFF;
 }
 
-.sidebar h3 {
+.navbar h3 {
 	text-decoration: none;
 	display: block;
 	transition: 0.3s;
@@ -115,7 +137,7 @@ img {
     color: #FFFFFF;
 }
 
-.sidebar p {
+.navbar p {
 	text-decoration: none;
 	display: block;
 	transition: 0.3s;
@@ -123,7 +145,7 @@ img {
     color: #FFFFFF;
 }
   
-.sidebar .closebtn {
+.navbar .closebtn {
 	position: absolute;
 	top: 0px;
 	right: 25px;
@@ -224,6 +246,9 @@ img {
 	.right-project {
 		width: 100%;
 	}
+	footer .column {
+		width: 100%;
+	}
 }
 
 @media screen and (min-width: 800px) and (max-width: 1080px) {
@@ -257,6 +282,9 @@ img {
 		width: calc(50% - 16px);
 		padding-left: 16px;
 	}
+	footer .column {
+		width: calc(33%);
+	}
 }
 
 @media screen and (min-width: 1080px) {
@@ -288,5 +316,8 @@ img {
 	.right-project {
 		width: calc(50% - 16px);
 		padding-left: 16px;
+	}
+	footer .column {
+		width: calc(33%);
 	}
 }

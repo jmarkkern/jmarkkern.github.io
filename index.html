@@ -20,7 +20,7 @@ EMAIL: jaimemarkkern@gmail.com
 
 <body>
   
-  <div id="mySidebar" class="sidebar">
+  <div id="navbar" class="navbar">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <h3>Navigation</h3>
     <nav>
@@ -29,21 +29,15 @@ EMAIL: jaimemarkkern@gmail.com
       <p><a href="digiart-portfolio.html">Digital Art</a></p>
       <p><a href="https://drive.google.com/file/d/1bpyKffzRjMSMpWAlu_fu_Xe55A894C1r/view?usp=sharing" target="_blank">PDF Resume</a></p>
     </nav>
-    <h3><br>Let's Connect</h3>
-    <p><strong>Email:</strong><br>jaimemarkkern@gmail.com</p>
-    <p><strong>Location:</strong><br>Los Angeles / Orange County</p>
-    <p><strong>Social:</strong><a href="https://www.linkedin.com/in/jaime-markkern/" target="_blank" style="padding: 0px 0px;">LinkedIn</a></p>
-    <p><br><br><small>HTML and CSS by Jaime Markkern (me!)</small></p>
-    <p style="padding-left: 0px;"><img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></p>
   </div>
 
   <script>
     function openNav() {
-      document.getElementById("mySidebar").style.width = "272px";
+      document.getElementById("navbar").style.width = "272px";
     }
     
     function closeNav() {
-      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("navbar").style.width = "0";
       document.getElementById("main").style.marginLeft= "0";
     }
   </script>
@@ -143,6 +137,24 @@ EMAIL: jaimemarkkern@gmail.com
       </div>
     </div>
   </div>
-
+  <footer>
+    <div class="row">
+      <h3><br>Let's Connect</h3>
+    </div>
+    <div class="row">
+      <div class="column">
+        <p><small><strong>Social</strong></small></p>
+        <p><a href="https://www.linkedin.com/in/jaime-markkern/" target="_blank" style="padding: 0px 0px;">LinkedIn</a></p>
+      </div>
+      <div class="column">
+        <p><small><strong>Email</strong></small></p>
+        <p>jaimemarkkern@gmail.com</p>
+      </div>
+      <div class="column">
+        <p><small>HTML and CSS by me!</small></p>
+        <p style="padding-left: 0px;"><img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
