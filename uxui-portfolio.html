@@ -14,34 +14,25 @@
 
 <body>
   <div id="navbar" class="navbar">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <h2>Navigation</h2>
-    <nav>
-      <p><a href="index.html">About Me</a></p>
-      <p><strong>UX/UI</strong></p>
-      <p><a href="digiart-portfolio.html">Digital Art</a></p>
-      <p><a href="https://drive.google.com/file/d/1bpyKffzRjMSMpWAlu_fu_Xe55A894C1r/view?usp=sharing" target="_blank">PDF Resume</a></p>
-    </nav>
+    <h3>Jaime Markkern</h3>
+    <a href="index.html">About Me</a>
+    <a href="uxui-portfolio.html" class="active">UX/UI</a>
+    <a href="digiart-portfolio.html">Digital Art</a>
+    <a href="https://drive.google.com/file/d/1bpyKffzRjMSMpWAlu_fu_Xe55A894C1r/view?usp=sharing" target="_blank">PDF Resume</a>
+    <a href="javascript:void(0)" class="navbtn" onclick="navFunc()">&#9776;</a>
   </div>
-
+  
   <script>
-    function openNav() {
-      document.getElementById("navbar").style.width = "272px";
-    }
-    
-    function closeNav() {
-      document.getElementById("navbar").style.width = "0";
-      document.getElementById("main").style.marginLeft= "0";
+    function navFunc() {
+      var x = document.getElementById("navbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
     }
   </script>
 
-  <button class="openbtn" onclick="openNav()">&#9776;</button>
-  <div class="name">
-    <a href="index.html"><h3 style="color:#F9F9F9; margin-top: 14px;">Jaime Markkern</h3></a>
-  </div>
-  <div class="header">
-    <h1 style="color:#F9F9F9">UX/UI</h1>
-  </div>
   <div id="main">
     
     <div class="subheading">
