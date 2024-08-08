@@ -9,21 +9,14 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Serif+Display">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
   <link rel="stylesheet" href="style.css">
-  <script src="jscript.js"></script>
+  <script src="components/header.js" type="text/javascript" defer></script>
+  <script src="components/footer.js" type="text/javascript" defer></script>
   <title>Jaime Markkern's Portfolio</title>
 </head>
 
 <body>
-  <div id="navbar" class="navbar">
-    <h3>Jaime Markkern</h3>
-    <a href="index.html">About Me</a>
-    <a href="uxui-portfolio.html" class="active">UX/UI</a>
-    <a href="digiart-portfolio.html">Digital Art</a>
-    <a href="https://drive.google.com/file/d/1bpyKffzRjMSMpWAlu_fu_Xe55A894C1r/view?usp=sharing" target="_blank">PDF Resume</a>
-    <a href="javascript:void(0)" class="navbtn" onclick="navFunc()">&#9776;</a>
-  </div>
-
-  <div id="main">
+  <header-component></header-component>
+  <main>
     
     <div class="container">
       <h2>Projects</h2>
@@ -170,24 +163,6 @@
         </div>
       </div>
     </div>
-  </div>
-  <footer>
-    <div class="row">
-      <h3><br>Let's Connect</h3>
-    </div>
-    <div class="row">
-      <div class="column">
-        <p><small><strong>Social</strong></small></p>
-        <p><a href="https://www.linkedin.com/in/jaime-markkern/" target="_blank" style="padding: 0px 0px;">LinkedIn</a></p>
-      </div>
-      <div class="column">
-        <p><small><strong>Email</strong></small></p>
-        <p>jaimemarkkern@gmail.com</p>
-      </div>
-      <div class="column">
-        <p><small>HTML and CSS by me!</small></p>
-        <p style="padding-left: 0px;"><img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></p>
-      </div>
-    </div>
-  </footer>
+  </main>
+  <footer-component></footer-component>
 </body>
