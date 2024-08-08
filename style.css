@@ -13,12 +13,6 @@ body {
 	padding-top: 56px;
 }
 
-.header {
-	text-align: center;
-	padding: 48px;
-	background:#152E52;
-}
-
 h1 {
 	text-align: left;
 	font-family: "DM Serif Display", Georgia, serif;
@@ -107,35 +101,6 @@ footer a {
 	margin-right: auto;
 }
 
-.navbar {
-	line-height: 56px;
-	width: 100%;
-	position: fixed;
-	top: 0;
-	display: block;
-	background-color: #EDEFF2;
-	overflow: hidden;
-}
-.navbar h3 {
-	text-decoration: none;
-	float: left;
-	margin: auto calc(100% - 570px) auto 16px;
-}
-.navbar a {
-	text-decoration: none;
-	float: left;
-	display: block;
-	padding-left: 16px;
-	padding-right: 16px;
-}
-.navbar a.active {
-	pointer-events: none;
-	font-weight: bolder;
-}
-.navbar .navbtn {
-	display: none;
-}
-
 .column {
 	float: left;
   }
@@ -175,7 +140,7 @@ footer a {
 
 @media screen and (max-width: 800px) {
 /* small screens */
-	#main {
+	main {
 		margin: 0 5% 0 5%;
 	}
 	.header {
@@ -238,7 +203,7 @@ footer a {
 
 @media screen and (min-width: 800px) and (max-width: 1080px) {
 /* medium screens */
-	#main {
+	main {
 		margin: 0 10% 0 10%;
 	}
 	.container {
@@ -275,7 +240,7 @@ footer a {
 
 @media screen and (min-width: 1080px) {
 /* large screens */
-	#main {
+	main {
 		margin: 0 20% 0 20%;
 	}
 	.container {
