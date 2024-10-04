@@ -1,0 +1,46 @@
+--- MAKING A COMPONENT ---
+
+class NewComponent extends HTMLElement {
+    constructor() {
+        super();
+    }
+    connectedCallback() {
+        this.innerHTML = `
+            // html code here
+        `;
+    }
+}
+
+customElements.define('new-component', NewComponent);
+ --------------------
+
+
+
+
+
+--- MAKING A PAGE ---
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Jaime Markkern">
+  <meta name="description" content="Portfolio of Jaime Markkern, UCI Senior B.S. Informatics">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Serif+Display">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="style.css">
+  <script src="components/header.js" type="text/javascript" defer></script>
+  <script src="components/footer.js" type="text/javascript" defer></script>
+  <title>Jaime Markkern's Portfolio</title>
+</head>
+
+<body>
+  <header-component></header-component>
+  <main>
+  </main>
+  <footer-component></footer-component>
+</body>
+</html>
+--------------------
