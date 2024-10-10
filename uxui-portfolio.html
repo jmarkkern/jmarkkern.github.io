@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="components/header.js" type="text/javascript" defer></script>
   <script src="components/footer.js" type="text/javascript" defer></script>
+  <script src="components/project.js" type="text/javascript" defer></script>
   <title>Jaime's UX/UI Experience</title>
 </head>
 
@@ -19,11 +20,26 @@
   <main>
     
     <div class="container" style="background-color: #FFFFFF;">
-      <h2>Projects</h2>
-      <p>This portfolio website! I built it from scratch with HTML and CSS, while making sure everything is within the WCAG accessibility standards.</p>
-    </div>
 
-    <div class="container">
+    <project-component
+      title="May Valley Dental Center"
+      desc=""
+      imgsrc="">
+    </project-component>
+
+    <project-component
+      title="AWS Call Center Gamification"
+      desc=""
+      imgsrc="">
+    </project-component>
+
+    <project-component
+      title="Vibetality"
+      desc=""
+      imgsrc="">
+    </project-component>
+
+    <!-- <div class="container">
       <h3>Culture Shock</h3>
       <div class="row">
         <div class="column left-project">
@@ -36,25 +52,6 @@
              in their area. We started by sketching out some lo-fi versions of the app on paper before digitizing and finalizing it as a 
              <a href="https://www.figma.com/proto/HlKFbIwuMMw5vtXhpqiFAj/Design-a-thon-2023?node-id=57%3A25813&scaling=min-zoom&page-id=1%3A6098&starting-point-node-id=48%3A8802" target="_blank">wireframe on Figma</a>.
              <br><br>I worked on the interactivity and overall design of the application, as well as the conception of the idea.
-          </p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="container">
-      <h3>Playdate!</h3>
-      <div class="row">
-        <div class="column left-project">
-          <iframe style="overflow:hidden; width:100%; height:450px;" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUOw182LeP7nCMVAvMqyR9C%2FINF-121---Interface-Design%3Ftype%3Ddesign%26node-id%3D34-3%26t%3DhImVrvy5AuWOkZdo-1%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D34%253A3%26mode%3Ddesign" allowfullscreen></iframe>
-        </div>
-        <div class="column right-project text">
-          <p>This mobile app was designed based on an idea presented in class, where my group of five analyzed potential stakeholders to 
-            generate software goals, requirements, and the application's architectural and interface design. As the system is centered around 
-            children, we opted for a mobile app design since every parent has a phone, and many children have access to a mobile device. We 
-            went into detail of the process on a <a href="https://drive.google.com/file/d/1dBhb1cG5nuf0pqDGeYkJcsIf6sR61BN4/view?usp=sharing" target="_blank">final class report</a> 
-            and built an interactive version as a <a href="https://www.figma.com/proto/UOw182LeP7nCMVAvMqyR9C/INF-121---Interface-Design?type=design&node-id=34-3&t=DRGqNej6Y6tI21Z6-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=34%3A3&mode=design" target="_blank">wireframe on Figma</a>.
-            <br><br>I helped the team analyze and engineer the software application. Mainly, I focused on the design of the app's interface 
-            on Figma.
           </p>
         </div>
       </div>
@@ -134,7 +131,7 @@
     
     <div class="container">
       <div class="row">
-        <!-- course list formatting: <li>Course Name<br><small><em>Hard Skills</em></small></li> -->
+        course list formatting: <li>Course Name<br><small><em>Hard Skills</em></small></li>
         <div class="column left-project">
           <h3>Relevant Courses</h3>
           <ul style="list-style-type:circle;">
@@ -162,7 +159,7 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
   </main>
   <footer-component></footer-component>
 </body>

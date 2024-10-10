@@ -1,3 +1,5 @@
+https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements
+
 --- MAKING A COMPONENT ---
 
 class NewComponent extends HTMLElement {
@@ -33,7 +35,8 @@ customElements.define('new-component', NewComponent);
   <link rel="stylesheet" href="style.css">
   <script src="components/header.js" type="text/javascript" defer></script>
   <script src="components/footer.js" type="text/javascript" defer></script>
-  <title>Jaime Markkern's Portfolio</title>
+  <script src="components/project.js" type="text/javascript" defer></script>
+  <title>Jaime's Page</title>
 </head>
 
 <body>

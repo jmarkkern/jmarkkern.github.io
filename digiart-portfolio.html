@@ -11,122 +11,71 @@
   <link rel="stylesheet" href="style.css">
   <script src="components/header.js" type="text/javascript" defer></script>
   <script src="components/footer.js" type="text/javascript" defer></script>
+  <script src="components/project.js" type="text/javascript" defer></script>
   <title>Jaime's Digital Artwork</title>
 </head>
 
 <body>
   <header-component></header-component>
   <main>
-    <div class="subheading">
-      <h2>Projects</h2>
-    </div>
-    
-    <div class="container">
-      <h3>Foreword</h3>
-      <video controls>
-        <source src="media/Foreword_YunDongJu.mp4" type="video/mp4"> Your browser does not support the video tag.
-      </video>
-      <p>Yun Dongju's poem "Foreword" is his promise to be a good man while he is alive, since he loves his people and all things that are alive. 
-        As such, I chose a cozy color palette to make a heartwarming mood to the animation. The man under the tree at the opening scene 
-        represents Yun Dongju, as he states his manifesto. The drawings were made in Adobe Illustrator and animated entirely in After Effects; 
-        the video was put together and finalized in Premiere Pro.
-      </p>
-    </div>
 
     <div class="container">
-      <h3>Logo For Humanity</h3>
-      <div class="row">
-        <div class="column left-project">
-          <img src="media/Logo_For_Humanity.gif" alt="Human kindness.">
+        <div class="row">
+            <div class="left-project">
+              <h2>Foreword</h2>
+              <p>An animated short inspired by "Foreword" by Yun Dongju.
+              </p>
+              <!-- Yun Dongju's poem 'Foreword' is his promise to be a good man while he is alive, since he loves his people and all things that are alive. 
+                As such, I chose a cozy color palette to make a heartwarming mood to the animation. The man under the tree at the opening scene 
+                represents Yun Dongju, as he states his manifesto. The drawings were made in Adobe Illustrator and animated entirely in After Effects; 
+                the video was put together and finalized in Premiere Pro. -->
+            </div>
+            <div class="right-project">
+              <video controls>
+                <source src="media/digiart/Foreword_YunDongJu.mp4" type="video/mp4"> Your browser does not support the video tag.
+              </video>
+            </div>
         </div>
-        <div class="column right-project text">
-          <p>This is a short black and white based on humanity (as a first impression to aliens). I wanted to show humanity as "togetherness" so I 
+    </div>
+
+    <project-component
+      title="Logo For Humanity"
+      desc="A short black and white based on humanity (as a first impression to aliens)."
+      imgsrc="digiart/Logo_For_Humanity.gif">
+      <!-- This is  I wanted to show humanity as 'togetherness' so I 
             knew I wanted people to be holding hands to showcase that. The animations were made to look bouncy, which makes it seem friendlier and 
-            cuter. This animation design was made with Adobe After Effects.
-          </p>
-        </div>
-      </div>
-    </div>
+            cuter. This animation design was made with Adobe After Effects. -->
+    </project-component>
 
-    <div class="container">
-      <h3>PlantHead Brand Design</h3>
-      <div class="row">
-        <div class="column left-project">
-          <img class="digiart-img" src="media/planthead_brandboard.png" alt="Brand board for PlantHead.">
-        </div>
-        <div class="column right-project text">
-          <p>I created this as part of my project management course, where my group was in charge of creating designs for other groups. A group 
-            called "PlantHead" commissioned us to design the logo and web design for their web app, which was supposed to help users learn more 
-            about a plant by analyzing and identifying it from a picture. We were given the freedom to choose the color palette and font style. 
-            I was in charge of design decisions and logo creation, so I created the brand board as a guide for my team to reference.
-          </p>
-        </div>
-      </div>
-    </div>
+    <project-component
+      title="PlantHead Brand Design"
+      desc="Brand board to help define expectations of visual design."
+      imgsrc="digiart/planthead_brandboard.png">
+      <!-- In a project management course, another group called 'PlantHead' commissioned my team to design the logo and web design for their web app, 
+            which was supposed to help users learn more about a plant by analyzing and identifying it from a picture. We were given the freedom to 
+            choose the color palette and font style. I was in charge of design decisions and logo creation, so I created the brand board as a guide 
+            for my team to reference. -->
+    </project-component>
 
-    <div class="container">
-      <h3>Matchafy Logo</h3>
-      <div class="row">
-        <div class="column left-project">
-          <img class="digiart-img" src="media/matcha_logo_mockup.png" alt="Logo and icon mockups for Matcha.">
-        </div>
-        <div class="column right-project text">
-          <p>For another project from my project management course, a group called "Matcha" commissioned us to design the logo for their app, which 
+    <project-component
+      title="Matchafy Logo"
+      desc="Logo design for musical app idea named Matchafy."
+      imgsrc="digiart/matcha_logo_mockup.png">
+      <!-- For another project from my project management course, a group called 'Matcha' commissioned us to design the logo for their app, which 
             was supposed to help users discover unknown musical artists. I started with sketches inspired by their goals and created a preliminary 
-            logo, which they asked to tweak, resulting in the finished logos and icons shown here.
-          </p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="container">
-      <h3>Thai Culture Association Assets</h3>
-      <div class="row">
-        <div class="column left-project">
-          <div class="column left-display">
-            <img src="media/TCA_Anteaters.jpg" alt="Anteater mascots for TCA at UCI">
-          </div>
-          <div class="column right-display">
-            <img src="media/TCN2022_promo_flyer.png" alt="Thai Culture Night 2022 Instagram Flyer">
-          </div>
-        </div>
-        <div class="column right-project text">
-          <p>During my time as Social Media Chair for TCA at UCI from May 2020 to June 2022, I had to design and post promotional material for the 
-            club on <a href="https://www.instagram.com/thaiclub_uci/" target="_blank">Instagram</a> (@thaiclub_uci) using Canva. I also drew 
-            sticker designs of UCI's anteater mascot engaging in different aspects of Thai culture. While all the stickers were used as Discord 
-            emotes and design assets in the club, the "Wai Anteater" (taking the form of Thai greeting) was also printed and sold as a physical sticker.
-        </div>
-      </div>
-    </div>
+            logo, which they asked to tweak, resulting in the finished logos and icons shown here. -->
+    </project-component>
 
-    <div class="container">
-      <h3>Personal Projects</h3>
-      <div class="row">
-        <div class="column left-project">
-          <img src="media/menbb_vday24.png">
-        </div>
-        <div class="column right-project">
-          <div class="column left-display">
-            <img src="media/bloodhound_duck.png">
-          </div>
-          <div class="column right-display">
-            <img src="media/jerry_panda.png">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="subheading">
-      <h2>Relevant Coursework</h3>
-    </div>
-    
-    <div class="container">
-      <ul style="list-style-type:circle;">
-        <li>Foundations of Media Design<br><small><em>Adobe Photoshop, inDesign, Illustrator</em></small></li>
-        <li>Matter and Media<br><small><em>Principles of Design</em></small></li>
-        <li>Foundations in Internet Art, Motion Graphics<br><small><em>Adobe After Effects, Premiere Pro</em></small></li>
-      </ul>
-    </div>
+    <project-component
+      title="Thai Culture Association"
+      desc="Some digital assets made for TCA at UCI."
+      imgsrc="digiart/tcauci_assets.png">
+      <!-- During my time as Social Media Chair for TCA at UCI from May 2020 to June 2022, I had to design and post promotional material for the 
+            club on Instagram (@thaiclub_uci) using Canva. I also drew sticker designs of UCI's anteater mascot engaging in different aspects of 
+            Thai culture. While all the stickers were used as Discord  emotes and design assets in the club, the 'Wai Anteater' (taking the form 
+            of Thai greeting) was also printed and sold as a physical sticker. -->
+    </project-component>
+  
   </main>
   <footer-component></footer-component>
 </body>
