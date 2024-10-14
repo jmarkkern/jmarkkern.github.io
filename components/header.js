@@ -19,8 +19,6 @@ class Header extends HTMLElement {
             color: #152E52;
             font-size: 20px;
             text-decoration: none;
-            float: left;
-            margin: auto calc(100% - 570px) auto 16px;
         }
         header a {
             text-decoration: none;
@@ -67,6 +65,17 @@ class Header extends HTMLElement {
                 text-align: center;
             }.navbar.responsive a.navbtn {
                 line-height: 56px;
+            }
+            header h1 {
+                text-align: center;
+                margin: auto 16px auto 16px;
+            }
+        }
+        
+        @media screen and (min-width: 800px) {
+            header h1 {
+                float: left;
+                margin: auto calc(100% - 570px) auto 16px;
             }
         }
     </style>
