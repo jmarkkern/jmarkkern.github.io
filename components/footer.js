@@ -6,66 +6,78 @@ class Footer extends HTMLElement {
         this.innerHTML = `
     <style>
         footer {
-            background-color: #EDEFF2;
-            width: 100%;
+            background-color: #152E52;
+            width: 100vw;
             text-align: center;
-            padding-bottom: 36px;
+            padding-bottom: 16px;
         }
-        footer h4 {
-            font-family: "Open Sans", Verdana, sans-serif;
-            font-size: 14px;
-	        font-weight: bold;
-            color: #151C28;
-            margin: 24px 0px 16px 0px;
-        }
-        footer p {
+        footer h2 {
+            color: #EDEFF2;
             text-decoration: none;
-            margin: 16px 16px 0px 16px;
+        }
+        footer h3 {
+            color: #EDEFF2;
+            text-decoration: none;
         }
         footer a {
+            width: 128px;
+            line-height: 32px;
+            border-radius: 16px;
+            display: inline-block;
+            margin-bottom: 16px;
+            background-color: #EDEFF2;
             text-decoration: none;
+            text-align: center;
         }
         @media screen and (max-width: 800px) {
-            footer .column {
+            footer img {
+                width: 50%;
+                float: center;
+            }
+            .left-footer {
                 width: 100%;
             }
-            footer h3 {
-                color: #152E52;
-                text-decoration: none;
-                float: center;
-                margin: 0 16px 0px 16px;
+            .right-footer {
+                width: 100%;
+                padding: 0px 0px 0px 0px;
             }
         }
         @media screen and (min-width: 800px) {
-            footer .column {
-                width: calc(33%);
+            footer img {
+                max-width: 480px;
+                float: center;
             }
-            footer h3 {
-                color: #152E52;
-                text-decoration: none;
+            .left-footer {
+                width: calc(50%);
                 float: left;
-                margin: 0 calc(100% - 570px) 0px 16px;
+            }
+            .right-footer {
+                width: calc(50% - 64px);
+                padding: 0px 32px 32px 32px;
+                float: right;
             }
         }   
     </style>
 
     <footer>
         <div class="row">
-        <h3><br>Let's Connect</h3>
-        </div>
-        <div class="row">
-        <div class="column">
-            <h4>Social</h4>
-            <p><a href="https://www.linkedin.com/in/jaime-markkern/" target="_blank" style="padding: 0px 0px;">LinkedIn</a></p>
-        </div>
-        <div class="column">
-            <h4>Email</h4>
-            <p><a href="mailto:jaimemarkkern@gmail.com">jaimemarkkern@gmail.com</a></p>
-        </div>
-        <div class="column">
-            <p style="padding-left: 0px; margin: 24px 0px 16px 0px;"><img style="border:0;width:54px;height:19px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></p>
-            <p><small>HTML and CSS by me!</small></p>
-        </div>
+            <div class="column right-footer">
+                <div style="width:50%;float:left;">
+                    <h2>Get in Contact</h2>
+                    <div><a href="mailto:jaimemarkkern@gmail.com">Email</a></div>
+                    <div><a href="https://www.linkedin.com/in/jaime-markkern/" target="_blank">LinkedIn</a></div>
+                    <div><a href="https://www.behance.net/jaimemarkkern" target="_blank">Behance</a></div>
+                </div>
+                <div style="width:50%;float:left;">
+                    <h2>See More</h2>
+                    <div><a href="about.html">About Me</a></div>
+                    <div><a href="https://drive.google.com/file/d/1bpyKffzRjMSMpWAlu_fu_Xe55A894C1r/view?usp=sharing" target="_blank">Resume</a></div>
+                    <div><a href="https://github.com/jmarkkern" target="_blank">GitHub</a></div>
+                </div>
+            </div>
+            <div class="column left-footer">
+                <a href="index.html" style="background:none; width:100%;"><img src="./media/landing_img.png" alt="Link to Home Page"></a>
+            </div>
         </div>
     </footer>
         `;

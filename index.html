@@ -11,10 +11,11 @@ EMAIL: jaimemarkkern@gmail.com
   <meta name="author" content="Jaime Markkern">
   <meta name="description" content="Portfolio of Jaime Markkern, UX/UI Designer">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Serif+Display">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloock">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Instrument+Sans">
   <link rel="stylesheet" href="style.css">
   <script src="components/header.js" type="text/javascript" defer></script>
+  <script src="components/pagetitle.js" type="text/javascript" defer></script>
   <script src="components/footer.js" type="text/javascript" defer></script>
   <script src="components/project.js" type="text/javascript" defer></script>
   <title>Jaime Markkern's Portfolio</title>
@@ -22,8 +23,9 @@ EMAIL: jaimemarkkern@gmail.com
 
 <body>
   <header-component></header-component>
-  <main>
-    <div class="container" style="background-color: #FFFFFF; padding-top: 0;">
+  <pagetitle-component></pagetitle-component>
+  <main id="hello">
+    <div class="container" style="background-color: #FFFFFF;">
       <div class="row">
         <div class="column left-about">
           <img src="media/headshot.png" alt="Jaime wearing a white blouse and smiling." style="width: 200px; height: 200px;">
@@ -42,6 +44,7 @@ EMAIL: jaimemarkkern@gmail.com
 
     <project-component
       title="May Valley Dental Center"
+      category="Web Design | Wordpress"
       desc="Web design project for a local dentist clinic built on WordPress."
       imgsrc="uxui_thumbnails/mayvalleydental.png"
       link="">
@@ -49,6 +52,7 @@ EMAIL: jaimemarkkern@gmail.com
 
     <project-component
       title="AWS Call Center Gamification"
+      category="Product Design | UX/UI | Asset Creation"
       desc="Software prototype to introduce game elements to call centers."
       imgsrc="uxui_thumbnails/awscallcentergamification.png"
       link="https://sites.google.com/uci.edu/inf191-ws24/aws-gamified-call-center">
@@ -56,6 +60,7 @@ EMAIL: jaimemarkkern@gmail.com
 
     <project-component
       title="Vibetality"
+      category="Game Design | UX/UI | Asset Creation"
       desc="Turned-based video game where a graveyard party was crashed! How do we revive the vibes?"
       imgsrc="uxui_thumbnails/vibetality.png"
       link="https://6oymilk.itch.io/vibetality">

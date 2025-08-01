@@ -36,6 +36,7 @@ customElements.define('new-component', NewComponent);
   <script src="components/header.js" type="text/javascript" defer></script>
   <script src="components/footer.js" type="text/javascript" defer></script>
   <script src="components/project.js" type="text/javascript" defer></script>
+  <script src="components/pagetitle.js" type="text/javascript" defer></script>
   <title>Jaime's Page</title>
 </head>
 

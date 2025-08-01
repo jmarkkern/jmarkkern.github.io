@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Jaime Markkern">
+  <meta name="description" content="Portfolio of Jaime Markkern, UCI Senior B.S. Informatics">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloock">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Instrument+Sans">
+  <link rel="stylesheet" href="style.css">
+  <script src="components/header.js" type="text/javascript" defer></script>
+  <script src="components/pagetitle.js" type="text/javascript" defer></script>
+  <script src="components/footer.js" type="text/javascript" defer></script>
+  <script src="components/project.js" type="text/javascript" defer></script>
+  <title>About Jaime</title>
+</head>
+
+<style>
+     @media screen and (max-width: 800px) {
+      .right-project img {
+        margin-top: 24px;
+      }
+      .aboutlst .column {
+          margin-top: 32px;
+          width: 100%;
+          text-align: center;
+      }
+    }
+    @media screen and (min-width: 800px) {
+      .aboutlst .column {
+          margin-top: 32px;
+          width: calc(33%);
+          text-align: center;
+      }
+    }
+</style>
+
+<body>
+  <header-component></header-component>
+  <pagetitle-component></pagetitle-component>
+  <main>
+    <div class="container" style="background-color: #FFFFFF; padding-top: 0;">
+      <div class="row">
+        <div class="column left-project" style=" border-radius:0px;">
+          <h2>How could I join art and technology?</h2>
+          <p>Growing up with technology being in every facet of life, I guess it was inevitable for me to end up wanting to work
+             in tech. When I was a kid, I had a passion for art. I was always doodling in the corner of my parents' small
+             restaurant (when I wasn't busy helping them around). My mom would come out of the kitchen and remark on how maybe
+             I would grow up to be a designer.<br><br>
+             Fast forward some years, when I was in a STEM-focused school program, I thought I just had to study some kind of
+             science, so when I went to university, I ended up majoring in Informatics! From there, I discovered user interface
+             design, and my little art muscles were working again, and I was excited to do my homework for once. Since then, I
+             learned about designing and engineering whole systems or products, thus begins my journey into UX/UI!
+          </p>
+        </div>
+        <div class="column right-project">
+          <img src="media/me_art_and_tech.png" alt="" style="width:100%; border-radius:0px; max-width:480px;">
+        </div>
+      </div>
+      <div class="aboutlst">
+        <div class="row">
+          <div class="column">
+            <h2>Skills</h2>
+            <ul>
+              <li>Digital Art</li>
+              <li>Graphic Design</li>
+              <li>UI Design</li>
+              <li>UX Research</li>
+              <li>Responsive Web Design</li>
+              <li>Digital Accessibility</li>
+              <li>Software Development</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h2>Tools</h2>
+            <ul>
+              <li>Medibang</li>
+              <li>Inkscape</li>
+              <li>Canva</li>
+              <li>Figma</li>
+              <li>Javascript</li>
+              <li>React</li>
+              <li>Angular</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h2>Education</h2>
+            <p><strong>Bachelor's of Science in Informatics</strong><br>
+               University of California, Irvine<br>
+               <small>Specialization in Human-Computer Interaction</small><br>
+               <small>Minor in Digital Arts</small><br>
+               <small>Minor in Computer Science</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer-component></footer-component>
+</body>
+</html>

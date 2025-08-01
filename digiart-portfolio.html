@@ -6,10 +6,11 @@
   <meta name="author" content="Jaime Markkern">
   <meta name="description" content="Portfolio of Jaime Markkern, UX/UI Designer">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Serif+Display">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloock">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Instrument+Sans">
   <link rel="stylesheet" href="style.css">
   <script src="components/header.js" type="text/javascript" defer></script>
+  <script src="components/pagetitle.js" type="text/javascript" defer></script>
   <script src="components/footer.js" type="text/javascript" defer></script>
   <script src="components/project.js" type="text/javascript" defer></script>
   <title>Jaime's Digital Artwork</title>
@@ -17,12 +18,14 @@
 
 <body>
   <header-component></header-component>
+  <pagetitle-component></pagetitle-component>
   <main>
 
     <div class="container">
         <div class="row">
             <div class="left-project">
-              <h2>Foreword</h2>
+              <p style="color:#5e636c"><small>Digital Art | Motion Design</small></p>
+              <h3>Foreword</h3>
               <p>An animated short inspired by "Foreword" by Yun Dongju, appreciating the living things.
               </p>
               <!-- Yun Dongju's poem 'Foreword' is his promise to be a good man while he is alive, since he loves his people and all things that are alive. 
@@ -40,7 +43,8 @@
 
     <project-component
       title="Logo For Humanity"
-      desc="A short black and white based on humanity (as a first impression to aliens)."
+      category="Digital Art | Motion Design"
+      desc="A short black and white motion logo based on humanity."
       imgsrc="digiart/Logo_For_Humanity.gif"
       link="">
       <!-- This is  I wanted to show humanity as 'togetherness' so I 
@@ -50,6 +54,7 @@
 
     <project-component
       title="PlantHead Brand Design"
+      category="Logo Design | Brand Identity"
       desc="Brand board to help define expectations of visual design."
       imgsrc="digiart/planthead_brandboard.png"
       link="">
@@ -61,6 +66,7 @@
 
     <project-component
       title="Matchafy Logo"
+      category="Logo Design | Asset Creation"
       desc="Logo design for a musical app idea named Matchafy."
       imgsrc="digiart/matcha_logo_mockup.png"
       link="">
@@ -71,6 +77,7 @@
 
     <project-component
       title="Thai Culture Association"
+      category="Digital Art | Asset Creation"
       desc="Digital assets made for TCA@UCI."
       imgsrc="digiart/tcauci_assets.png"
       link="">
