@@ -44,7 +44,7 @@ class Footer extends HTMLElement {
         }
         @media screen and (min-width: 800px) {
             footer img {
-                max-width: 480px;
+                max-width: 640px;
                 float: center;
             }
             .left-footer {
@@ -76,7 +76,7 @@ class Footer extends HTMLElement {
                 </div>
             </div>
             <div class="column left-footer">
-                <a href="index.html" style="background:none; width:100%;"><img src="./media/landing_img.png" alt="Link to Home Page"></a>
+                <a href="index.html" style="background:none; width:100%;"><img src="./media/footer_img.png" alt="Link to Home Page"></a>
             </div>
         </div>
     </footer>
