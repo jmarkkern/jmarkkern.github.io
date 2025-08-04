@@ -63,7 +63,7 @@ class PageTitle extends HTMLElement {
                     <h1>Let's create something together</h1>
                 </div>
                 <div class="page-title-left">
-                    <img src="media/landing_img.png" alt="" style="float:right;">
+                    <img src="media/landing_img.png" alt="" style="float:center; max-width: 600px;">
                 </div>
             </div>
             <svg width="200" height="100">
