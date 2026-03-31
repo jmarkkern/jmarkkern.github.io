@@ -20,6 +20,7 @@ class PageTitle extends HTMLElement {
             this.innerHTML = `
         <style>
             h1 {
+                line-height: 1;
                 font-family: "Instrument Sans", Verdana, sans-serif;
                 color:#EDEFF2;
             }
@@ -45,6 +46,7 @@ class PageTitle extends HTMLElement {
                     float: left;
                 }
                 .page-title-right {
+                    padding-top: 6vh;
                     height: 100%;
                     width:60%;
                     float: right;

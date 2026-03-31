@@ -20,12 +20,12 @@ class Project extends HTMLElement {
     <a href="${this.link}" target="_blank" style="text-decoration: none;">
         <div class="container">
             <div class="row">
-                <div class="left-project">
+                <div class="project-text">
                     <p style="color:#5e636c"><small>${this.category}</small></p>
                     <h3>${this.title}</h3>
                     <p>${this.desc}</p>
                 </div>
-                <div class="right-project">
+                <div class="project-img">
                     <img src="./media/${this.imgsrc}">
                 </div>
             </div>
@@ -37,12 +37,12 @@ class Project extends HTMLElement {
             this.innerHTML = `
     <div class="container">
         <div class="row">
-            <div class="left-project">
+            <div class="project-text">
                 <p style="color:#5e636c"><small>${this.category}</small></p>
                 <h3>${this.title}</h3>
                 <p>${this.desc}</p>
             </div>
-            <div class="right-project">
+            <div class="project-img">
                 <img src="./media/${this.imgsrc}">
             </div>
         </div>
