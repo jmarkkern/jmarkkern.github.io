@@ -111,8 +111,8 @@ class Header extends HTMLElement {
     <header id="navbar" class="navbar">
         <a id="navhome" href="index.html" class="name">Jaime Markkern</a>
         <a id="navabout" href="about.html">About Me</a>
-        <a id="navuxui" href="uxui-portfolio.html">UX/UI</a>
-        <a id="navdigiart" href="digiart-portfolio.html">Digital Art</a>
+        <a id="navuxui" href="websites.html">Websites</a>
+        <a id="navdigiart" href="brands.html">Brands</a>
         <a href="https://drive.google.com/file/d/1bpyKffzRjMSMpWAlu_fu_Xe55A894C1r/view?usp=sharing" target="_blank">Resume</a>
         <a href="javascript:void(0)" class="navbtn" onclick="navFunc()">&#9776;</a>
     </header>
@@ -137,9 +137,9 @@ if (document.title.includes("Portfolio")) {
 if (document.title.includes("About")) {
     document.getElementById("navabout").classList.add("active");
 }
-if (document.title.includes("UX/UI")) {
+if (document.title.includes("Web")) {
     document.getElementById("navuxui").classList.add("active");
 }
-if (document.title.includes("Digital Art")) {
+if (document.title.includes("Brand")) {
     document.getElementById("navdigiart").classList.add("active");
 }

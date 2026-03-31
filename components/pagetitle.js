@@ -8,11 +8,11 @@ class PageTitle extends HTMLElement {
         if (document.title.includes("About")) {
             this.title = "Get to Know Me"
         }
-        if (document.title.includes("UX/UI")) {
-            this.title = "My UX/UI Projects"
+        if (document.title.includes("Web")) {
+            this.title = "Website Designs"
         }
-        if (document.title.includes("Digital Art")) {
-            this.title = "My Digital Art"
+        if (document.title.includes("Brand")) {
+            this.title = "Visual Branding & Social Media"
         }
     }
     connectedCallback() {
